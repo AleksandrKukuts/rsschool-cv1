@@ -12,4 +12,4 @@ Educational institution: "Polotsk State University"<br>
 Graduation year: 2020<br>
 Specialty: information technology software<br>
 Qualification: software engineer<br>
-<p>Level of English A1</p>
+<h3>Level of English A1</h3>
