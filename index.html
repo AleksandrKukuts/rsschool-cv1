@@ -1,42 +1,37 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>HTML, CSS & Git Basics</title>
-    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" defer></script>
 </head>
 <body>
-   <header>
-    <div class="center">  
-    <img class ="avatar" src="/images/ava.jpg" alt="my avatar" />
-       <h1>Alexander Kukut</h1>
+  <div class="calculator-grid">
+    <div class="output">
+      <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
     </div>
-   </header>
-   <main>
-   <section>
-       <h2>Contacts:</h2>
-       <ul>
-        <li><strong>Skype:</strong> alexmorgan45_2<br></li>
-        <li><strong>Mail:</strong> alexanderkukuts@gmail.com<br></li>
-        <li><strong>Viber:</strong> +375 (33) 306-14-74<br></li>
-        <li><strong>Telegram:</strong> @ alexmorgan45<br></li>
-    </ul>
-   </section>
-   <section>
-    <h2>Brief information about yourself:</h2>
-    <p>Efficiency, purposefulness, resistance to stress, ability to work in a team, discipline. Desire to learn new technologies and grow professionally.
-        I have no work experience, but I really strive to carry out a project of high quality and get the first experience.</p>
-   </section>
-   <section>
-    <h2>Education:</h2>
-    <p>Educational institution: "Polotsk State University"<br>
-        Graduation year: 2020<br>
-        Specialty: information technology software<br>
-        Qualification: software engineer<br></p>
-   </section>
-   <footer>
-    <h3>Level of English A1</h3>
-   </footer>
-</main>
+    <button data-all-clear class="span-two">AC</button>
+    <button data-delete>DEL</button>
+    <button data-operation>÷</button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation>*</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation>+</button>
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation>-</button>
+    <button data-number>.</button>
+    <button data-number>0</button>
+    <button data-equals class="span-two">=</button>
+  </div>
 </body>
 </html>
